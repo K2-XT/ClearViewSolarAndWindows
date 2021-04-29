@@ -1,0 +1,172 @@
+body {
+	background-image: url("atmosphere-blue-sky-clouds-912110.jpg");
+	width:100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size:cover;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Fira Sans', sans-serif;
+	text-transform: uppercase;
+	color:#403f3f;
+}
+
+#wrapper {
+	width: 992px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: -130px;
+	padding:0px;
+}
+
+header{
+	width:auto;
+	background-color:#f1f1f2;
+	align-content: center;
+	margin-bottom: 0;
+}
+
+#header_title {
+	font-size:48px;
+	text-align: center;
+	margin:0;
+}
+
+hr.header {
+	border-color: #1f8ac0;
+	border-width: 3px;
+	border-style:solid;
+	width: 70%;
+	margin-bottom: 0;
+}
+
+nav {
+	align-content: center;
+	display: block;
+	background-color:#f1f1f2;
+	margin-top: 0;
+}
+
+nav li {
+	display: inline;
+}
+
+#ul_horizontal {
+	display:inline;
+	list-style: none;
+	margin:0px;
+	padding:0px;
+	font-size:34px;
+}
+
+a {
+	color:#403f3f;
+	text-decoration: none;
+	padding-left: 35px;
+}
+
+a:hover {
+	color: #1f8ac0;
+}
+
+iframe {
+	width: 100%;
+	height: 1400px;
+}
+
+.content {
+	background-color:#f1f1f2;
+	margin-top: 6px;
+	text-align: center;
+	float: left;
+	width: 49%;
+}
+
+.content img {
+	padding-top: 5px;
+}
+
+.content h2 {
+	text-align: center;
+	margin: 0px;
+	font-size: 28px;
+}
+
+.content hr {
+	border-color: #1f8ac0;
+	border-width: 2px;
+	border-style: solid;
+	width: 95%;
+}
+
+.contenttext {
+	margin-left:auto;
+	margin-right:auto;
+	text-align: left;
+	text-transform: none;
+}
+
+.contenttext a {
+	padding-left:0;
+}
+
+.push {
+	height: 130px;
+}
+
+footer {
+	width: 100%;
+	margin-top: 6px;
+	margin-left: auto;
+	margin-right:auto;
+	background-color:#f1f1f2;
+	border-top-color: #1f8ac0;
+	border-top-style: solid;
+	border-top-width: 6px;
+	float:left;
+	text-transform: none;
+}
+
+footer p {
+	display:inline;
+	margin-left:15px;
+}
+
+footer a {
+	text-align: right;
+	float:right;
+	margin-right: 15px;
+}
+
+@media only screen and (max-width:992px) {
+	body {
+		background-image:none;
+		background-color:#104c91;
+	}
+	
+	#ul_horizontal {
+		font-size: 30px;
+	}
+	
+	a {
+		padding-left: 15px;
+	}
+	
+	#wrapper {
+		width:768px;
+	}
+}
+
+@media only all and (max-width: 768px) {
+	#wrapper {
+		width:100%;
+	}
+	
+	nav  li {
+		display:inline-flex;
+	}
+	
+	.content {
+		width: 100%;
+	}
+}
