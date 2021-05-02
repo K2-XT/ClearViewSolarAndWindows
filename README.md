@@ -1,5 +1,7 @@
 # ClearViewSolarAndWindows
 
+![alt text](https://github.com/K2-XT/ClearViewSolarAndWindows/blob/main/cvsaw_screenshot.PNG?raw=true)
+
 Original Project Date: November 2019
 
 This is a website for a solar panel cleaning company my friend tried to start up: Clear View Solar and Windows. While the company itself didn't continue forward, this website was hosted for quite a while until recently I was asked to take it offline by my friend. This wasn't my first time building a website, I had previously worked on my high school's official website (North Sanpete High School) in 2016, but it was my first time working on a website that the only boss I had was the client. 
